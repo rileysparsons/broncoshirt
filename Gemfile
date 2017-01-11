@@ -42,6 +42,8 @@ gem 'spree_auth_devise', '~> 3.1.0'
 
 gem 'spree_gateway', '~> 3.1.0'
 
+gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
