@@ -44,6 +44,8 @@ gem 'spree_gateway', '~> 3.1.0'
 
 gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
 
+gem 'spree_tax_cloud', github: 'spree-contrib/spree_tax_cloud'
+
 
 # For image storage on S3
 gem 'aws-sdk-v1'
