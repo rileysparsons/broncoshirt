@@ -47,6 +47,8 @@ gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero'
 # For image storage on S3
 gem 'aws-sdk-v1'
 
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
